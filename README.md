@@ -7,4 +7,5 @@ Kodluyoruz Eğitimi kapsamında açtığım ilk repo.
 
 ## Lorem Picsum Görselleri
 
-![Lorem Picsum Görselleri](https://picsum.photos/id/1/200/300)
+![Lorem Picsum Görselleri](https://picsum.photos/200/300)
+
