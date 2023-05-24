@@ -1,0 +1,29 @@
+Soru) [16,21,11,8,12,22] -> Merge Sort
+
+a) Yukarıdaki dizinin sort türüne göre asamalarini yaziniz.
+b) Big-O gösterimini yaziniz.
+
+Sorunun Cevabi
+
+a) 
+
+  [16,21,11,8,12,22]
+   /           \
+[16,21,11] , [8,12,22]  -> n
+/      \        /    \
+[16],[21,11] ,  [8],[12,22]
+ /    /  \       /   /   \
+[16],[21],[11],[8],[12],[22]
+ /     /   \    /    /   \
+[16], [11,21], [8], [12,22]
+ /      \       /    \
+[11,16,21]  ,  [8,12,22]
+    /            \
+  [8,11,12,16,21,22]
+
+b) Her bölmede O(n) islemi yapilir. Bu işlemi ne kadar tekrarlagimiza bakmamiz gerekiyor.
+   Her defasinda ikiye bolundugu icin
+   2^x = n 'den logn = x olur. 
+
+   Burdan O(nlogn) olur.
+   
